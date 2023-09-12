@@ -1,7 +1,7 @@
 const BookMark = () => {
   return (
-    <div className="border border-black w-[40%]">
-      <h1>BookMark</h1>
+    <div className="w-[30%]">
+      <h1 className="text-center font-bold text-xl">BookMarks</h1>
     </div>
   )
 }

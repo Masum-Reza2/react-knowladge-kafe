@@ -5,10 +5,12 @@ import Header from './components/Header/Header'
 
 function App() {
 
+  
+
   return (
     <>
       <Header />
-      <div className='md:flex p-4 mx-4'>
+      <div className='flex p-4 mx-4 gap-5 justify-center'>
         <Blogs/>
         <BookMark />
       </div>
